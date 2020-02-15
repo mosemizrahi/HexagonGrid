@@ -2,7 +2,7 @@ Red Vertex: Vertex on fire
 
 Green Vertex: Vertex protected by a fireman
 
-Click a non-burning vertex to protect it with a fireman.
+Click a non-burning, non-protected vertex to protect it with a fireman.
 
 Press the right arrow key to make the fire spread automatically.
 
