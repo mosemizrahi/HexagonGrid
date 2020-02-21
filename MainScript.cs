@@ -7,6 +7,9 @@ using UnityEngine.SceneManagement;
 using System.Data;
 using System;
 
+    /* Unused Code - Might be useful for parsing strategies
+    ** Source code at https://github.com/Bunny83/LSystem/blob/master/LogicExpressionParser.cs
+
     public interface ILogicResult
     {
         bool GetResult();
@@ -955,7 +958,7 @@ using System;
     public class ParseException : Exception
     {
         public ParseException(string aMessage) : base(aMessage) { }
-    }
+    } */
 
 public class MainScript : MonoBehaviour
 {
@@ -1123,6 +1126,8 @@ public class MainScript : MonoBehaviour
         }
     }
 
+    /* Unused Code - Might be useful for applying strategies
+    
     bool LogicEvaluate(string expr) {
         Parser parser = new Parser();
         bool val = ((LogicExpression)(parser.Parse(expr))).GetResult();
@@ -1170,7 +1175,7 @@ public class MainScript : MonoBehaviour
         if (CircleDict.ContainsKey(Vec(x,y))) {
             Block(Vec(x,y));
         }
-    }
+    } */
 
     void Update()
     {
