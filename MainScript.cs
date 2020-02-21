@@ -1189,10 +1189,11 @@ public class MainScript : MonoBehaviour
             Undo();
         } else if (Input.GetKeyDown("r")) {
             Reset();
-        } else if (Input.GetKeyDown("a") && false) {
-            ApplyStrategy();
         } else if (Input.GetKeyDown("g")) {
             Grow();
+        /* Unused - Might be used for applying strategies 
+        } else if (Input.GetKeyDown("a")) {
+            ApplyStrategy(); */
         } else if (Input.GetMouseButton(0)) {
             Vector3 worldPoint = Camera.main.ScreenToWorldPoint(Input.mousePosition);
             float x = worldPoint.x;
