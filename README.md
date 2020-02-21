@@ -1,6 +1,6 @@
 Red Vertex: Vertex on fire
 
-Green Vertex: Vertex protected by a firefighter
+Green Vertex: Vertex protected by a firefighter.
 
 Left click a non-burning, non-protected vertex to protect it with a firefighter.
 
