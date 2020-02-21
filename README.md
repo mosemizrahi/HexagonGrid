@@ -4,7 +4,7 @@ Green Vertex: Vertex protected by a firefighter
 
 Left click a non-burning, non-protected vertex to protect it with a firefighter.
 
-You can hold down the mouse buttons to protect multiple vertices.
+You can hold down the mouse button to protect multiple vertices.
 
 Press the right arrow key to make the fire spread automatically. If necessary, the grid will grow to accomodate the fire spread.
 
